@@ -28,7 +28,7 @@ public class WrappersExample {
         System.out.println(Long.MAX_VALUE);
 
         Integer myRegularInteger = 10;*/
-
+        // нужно поправить название переменной
         String myIntString = "1234";
 
         // нужно поправить название переменной
