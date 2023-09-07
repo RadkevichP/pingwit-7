@@ -31,6 +31,7 @@ public class WrappersExample {
 
         String myIntString = "1234";
 
+        // нужно поправить название переменной
         Integer myParsedInteger = Integer.parseInt(myIntString);
 
         System.out.println(myIntString + 6);
