@@ -42,6 +42,7 @@ public class WrappersExample {
 
         int k = y;
 
+        // очень важный коментарий
 
     }
 
