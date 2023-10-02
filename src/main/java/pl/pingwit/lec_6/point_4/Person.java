@@ -10,9 +10,13 @@ public class Person {
     public Person() {
     }
 
-    public Person(String name, String surname, Address address) {
+    public Person(String name, String surname) {
         this.name = name;
         this.surname = surname;
+    }
+
+    public Person(String name, String surname, Address address) {
+        this(name, surname);
         this.address = address;
     }
 
