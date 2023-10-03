@@ -6,7 +6,7 @@ public class GadgetMain {
         String type = "phone";
 
         AppleGadget iphone11number1 = new AppleGadget("001A", GadgetTypes.SMARTPHONE, "iPhone 11", 64);
-        AppleGadget iphone11number2 = new AppleGadget("001A11", GadgetTypes.SMARTPHONE, "iPhone 11", 64);
+        AppleGadget iphone11number2 = new AppleGadget("001A", GadgetTypes.SMARTPHONE, "iPhone 11", 64);
 
         System.out.println(iphone11number1);
         System.out.println(iphone11number2);
