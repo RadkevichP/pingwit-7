@@ -6,6 +6,7 @@ import java.time.LocalTime;
 import java.time.Month;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
+import java.util.Locale;
 
 /**
  * @author Pavel Radkevich
@@ -59,8 +60,9 @@ public class DateTimeExample {
         System.out.println("----------------------------------------------------------------");
 
         // парсить строку в дату - это значит преобразовать строку в объект Java
-        DateTimeFormatter forParser = DateTimeFormatter.ofPattern("yyyy-dd-MM");
+        DateTimeFormatter forParser = DateTimeFormatter.ofPattern("yyyy-dd-MM").withLocale(Locale.GERMAN);
         LocalDate fromString = LocalDate.parse("1990-03-01", forParser);
+        System.out.println(forParser.format(fromString));
 
         System.out.println(dateTimeFormatter.format(fromString));
         System.out.println("----------------------------------------------------------------");
