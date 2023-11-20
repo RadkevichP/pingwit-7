@@ -11,7 +11,7 @@ public class OOMErrorExample {
         ArrayList<BigDecimal> bigDecimals = new ArrayList<>();
 
         int i = 0;
-        while (i < 10000000) {
+        while (i < 1000000) {
             i++;
             bigDecimals.add(new BigDecimal(RandomUtils.nextInt()));
         }
