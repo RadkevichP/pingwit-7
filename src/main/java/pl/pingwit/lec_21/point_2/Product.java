@@ -2,7 +2,7 @@ package pl.pingwit.lec_21.point_2;
 
 import java.util.Objects;
 
-public class Product {
+public class Product implements Comparable<Product> {
 
     private String name;
     private Integer code;
@@ -47,5 +47,10 @@ public class Product {
                 "name='" + name + '\'' +
                 ", code=" + code +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Product o) {
+        return this.getName().compareTo(o.getName());
     }
 }
