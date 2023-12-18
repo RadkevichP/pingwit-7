@@ -60,7 +60,7 @@ public class AccountInfo {
         return "AccountInfo{" +
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
-                ", phone='" + phone + '\'' +
+                ", email='" + phone + '\'' +
                 ", email='" + email + '\'' +
                 ", dateOfBirth=" + dateOfBirth +
                 '}';

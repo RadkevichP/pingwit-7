@@ -75,7 +75,7 @@ public class UserInfo {
         return "UserInfo{" +
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
-                ", phone='" + phone + '\'' +
+                ", email='" + phone + '\'' +
                 ", email='" + email + '\'' +
                 ", dateOfBirth=" + dateOfBirth +
                 '}';

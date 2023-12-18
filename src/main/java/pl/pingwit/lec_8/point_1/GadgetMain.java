@@ -3,7 +3,7 @@ package pl.pingwit.lec_8.point_1;
 public class GadgetMain {
 
     public static void main(String[] args) {
-        String type = "phone";
+        String type = "email";
 
         AppleGadget iphone11number1 = new AppleGadget("001A", GadgetTypes.SMARTPHONE, "iPhone 11", 64);
         AppleGadget iphone11number2 = new AppleGadget("001A", GadgetTypes.SMARTPHONE, "iPhone 11", 64);
