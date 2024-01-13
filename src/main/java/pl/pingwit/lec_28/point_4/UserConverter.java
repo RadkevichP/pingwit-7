@@ -1,4 +1,4 @@
-package pl.pingwit.lec_27.point_4;
+package pl.pingwit.lec_28.point_4;
 
 public class UserConverter {
 

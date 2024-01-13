@@ -1,4 +1,4 @@
-package pl.pingwit.lec_27.point_3;
+package pl.pingwit.lec_28.point_3;
 
 public class MoneyPostfixProcessor {
     public String addMoneyPostfix(Integer x) {
