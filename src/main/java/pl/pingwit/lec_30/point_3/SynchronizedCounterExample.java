@@ -12,14 +12,20 @@ public class SynchronizedCounterExample {
         //Counter counter = new Counter();
 
         IncrementorThread incrementorThread = new IncrementorThread(counter);
+        IncrementorThread incrementorThread2 = new IncrementorThread(counter);
+        IncrementorThread incrementorThread3 = new IncrementorThread(counter);
         DecrementorThread decrementorThread = new DecrementorThread(counter);
 
 
         incrementorThread.start();
+        incrementorThread2.start();
+        incrementorThread3.start();
         decrementorThread.start();
 
 
         incrementorThread.join();
+        incrementorThread2.join();
+        incrementorThread3.join();
         decrementorThread.join();
 
 

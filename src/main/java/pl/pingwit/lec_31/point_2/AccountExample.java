@@ -1,4 +1,4 @@
-package pl.pingwit.lec_30.point_6;
+package pl.pingwit.lec_31.point_2;
 
 
 public class AccountExample {
@@ -13,8 +13,8 @@ public class AccountExample {
         accountThread.start();
         accountThread2.start();
 
-        System.out.println(accountThread.getState());
-        System.out.println(accountThread2.getState());
+        System.out.println(String.format("First thread state: %s", accountThread.getState()));
+        System.out.println(String.format("Second thread state: %s", accountThread2.getState()));
 
         accountThread.join();
         accountThread2.join();

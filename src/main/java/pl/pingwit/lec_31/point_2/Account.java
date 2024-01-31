@@ -1,4 +1,4 @@
-package pl.pingwit.lec_30.point_6;
+package pl.pingwit.lec_31.point_2;
 
 
 public class Account {

@@ -1,12 +1,9 @@
-package pl.pingwit.lec_30.point_5;
+package pl.pingwit.lec_31.point_1;
 
 import java.util.List;
 import java.util.Objects;
 
-/**
- * @author Pavel Radkevich
- * @since 18.05.23
- */
+
 public final class ImmutableAccount {
 
     private final String name;

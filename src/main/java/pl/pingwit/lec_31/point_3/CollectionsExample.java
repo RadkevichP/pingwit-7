@@ -1,8 +1,9 @@
-package pl.pingwit.lec_30.point_7;
+package pl.pingwit.lec_31.point_3;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
  * @author Pavel Radkevich
@@ -14,6 +15,7 @@ public class CollectionsExample {
 
         List<Integer> integers = Collections.synchronizedList(new ArrayList<>());
         //List<Integer> integers = new CopyOnWriteArrayList<>();
+        //List<Integer> integers = new ArrayList<>();
 
         CollectionThread collectionThread = new CollectionThread(integers);
         CollectionThread collectionThread2 = new CollectionThread(integers);
