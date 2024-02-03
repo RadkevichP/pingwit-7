@@ -7,6 +7,7 @@ services:
     networks:
       - pingwit_net
     environment:
+      POSTGRES_DB: pingwit-7
       POSTGRES_USER: pingwit
       POSTGRES_PASSWORD: pingwit_password
     volumes:
