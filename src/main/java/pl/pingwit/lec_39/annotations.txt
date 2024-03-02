@@ -1,0 +1,8 @@
+@Configuration
+@ComponentScan
+@SpringBootApplication
+
+@Component
+@Service
+@Repository
+@RestController
