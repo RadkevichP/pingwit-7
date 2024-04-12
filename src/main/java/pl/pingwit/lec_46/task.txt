@@ -1,0 +1,10 @@
+Создайте в приложении энпоинты для показа и создания сущностей (список энпоинтов написал индивидуально каждому в проекте)
+
+Добавьте в проект стартер для логирование sql запросов datasource-proxy и необходимые настройки в application.properties
+
+Добавьте в проект зависимость 		<dependency>
+                              			<groupId>org.springdoc</groupId>
+                              			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+                              			<version>2.5.0</version>
+                              		</dependency>
+в application.properties добавьте необходимые настройки и проверьте, отображаются ли ваши эндпоинты на странице swagger-ui
